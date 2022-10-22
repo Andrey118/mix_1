@@ -1,0 +1,112 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.all_blocks {
+    border-radius: 5px;
+    border: none;
+    padding: 20px 20px 20px 20px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3) ;
+    position: absolute;
+    top: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bu_1 {
+    background-color: #404AA4;
+    width: 110px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 2s linear;
+    
+}
+
+.bu_1:hover {
+    background-color: #b0b8ff;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+
+}
+
+.foto {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_1 {
+    transition: background-color 0.1s linear;
+    background-color: #3C5997;
+}
+
+.img_1:hover {
+    background-color: #92b4ff;
+}
+
+
+.img_2 {
+    transition: background-color 0.1s linear;
+    background-color: #BC2B8D;
+    
+}
+
+.img_2:hover {
+    background-color: #ff6ad0;
+}
+
+.img_3 {
+    transition: background-color 0.1s linear;
+    background-color: #05ACEE;
+
+}
+
+.img_3:hover {
+    background-color: rgb(144, 224, 255);
+}
+
+.img_4 {
+    transition: background-color 0.1s linear;
+    background-color: #DB4537;
+
+}
+
+.img_4:hover {
+    background-color: #ff9389;
+}
+
+.img_5 {
+    transition: background-color 0.1s linear;
+    background-color: #4C75A3;
+
+}
+
+.img_5:hover {
+    background-color: #7ab8ff;
+}
+
+.div_butt {
+    padding-top: 10px;
+}
+
+.div_a {
+    padding-top: 10px;
+    text-align: center;
+}
