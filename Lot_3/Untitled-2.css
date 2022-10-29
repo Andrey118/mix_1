@@ -1,0 +1,93 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+   margin: auto;
+}
+
+.all_blocks {
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size:  29px;
+    line-height: 44px;
+}
+
+.all_input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.all_input input {
+    background-color: #C9E5FF;
+    border: none;
+    border-radius: 10px;
+    width: 280px;
+    height: 40px;
+}
+
+.all_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.all_links a {
+    color: black;
+    text-decoration: none;  
+}
+
+.all_links p {
+    padding-right: 40px;
+}
+
+.bu_login {
+    background-color: #3B8030;
+    border: none;
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.sign {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.bu_facebook {
+    background-color: #305480;
+    border: none;
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.bu_facebook img {
+    padding-right: 10px;
+}
